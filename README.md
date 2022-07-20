@@ -6,6 +6,12 @@ This is a template for testing proof of concepts and recording vulnerability rep
 >
 > See installation instructions [here](https://book.getfoundry.sh/getting-started/installation).
 
+[PoC Contract](./src/PoC.sol)
+
+[PoC Test](./test/PoC.t.sol)
+
+[Vulnerability Report](./vulnerability-report.md)
+
 ## Installing Additional Dependencies
 
 ```
