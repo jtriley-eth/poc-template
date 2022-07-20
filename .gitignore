@@ -6,3 +6,11 @@ out/
 !/broadcast
 /broadcast/*
 /broadcast/*/31337/
+
+# Node Dependencies (if any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
