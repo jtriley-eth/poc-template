@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.14;
 
-import "forge-std/Test.sol";
-
 /// @dev Deploys a contract using its deployment bytecode and an initial Ether amount
 /// @param bytecode Deployment bytecode (constructor code included)
 /// @param initialEther The amount of Ether to create the contract with
