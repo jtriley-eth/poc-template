@@ -26,10 +26,22 @@ forge install GITHUB_OWNER_NAME/GITHUB_REPOSITORY_NAME
 forge test
 ```
 
+### Run PoC Test Against a Public Network
+
+```bash
+forge test --fork-url RPC_URL_TO_FORK
+```
+
 ### Run PoC Test with Full Call Trace
 
 ```bash
 forge test -vvvvv
+```
+
+### Get Solidity Interface From Etherscan
+
+```bash
+cast interface --etherscan-api-key ETHERSCAN_API_KEY --chain CHAIN_NAME CONTRACT_ADDRESS
 ```
 
 ### Search for Function Selector
